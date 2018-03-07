@@ -9,6 +9,7 @@ public class TestJunit {
 
 	   @Test
 	   public void testPrintMessage() {	  
+		   message = "New World";
 	      assertEquals(message,messageUtil.printMessage());
 	   }
 }
